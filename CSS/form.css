@@ -1,0 +1,80 @@
+.form__labelText {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.form__field {
+    border: 2px solid rgb(4, 4, 151);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 5px -5px 5px 0px rgb(4, 4, 151);
+    margin: 5px auto;
+}
+
+.form__fieldset {
+    border-radius: 5px;
+    margin: 30px;
+    border: 5px solid brown;
+    box-shadow: -10px 7px 5px 0px brown;
+}
+
+.form__currency {
+    border: 2px solid rgb(4, 4, 151);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 100px;
+    box-shadow: 5px -5px 5px 0px rgb(4, 4, 151);
+    margin: 4px auto;
+}
+
+.form__button {
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form__exchange {
+    border: 2px solid rgb(136, 136, 153);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    box-shadow: 5px -5px 5px 0px rgb(62, 62, 68);
+    margin: 4px auto;
+}
+
+.form__exchange:hover {
+    background-color: grey;
+}
+
+.from__currencyTable {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.form__cash {
+    border: 2px solid rgb(4, 4, 151);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 5px -5px 5px 0px rgb(4, 4, 151);
+    max-width: 200px;
+    width: 100%;
+}
+
+.form__amount {
+    border: 2px solid rgb(4, 4, 151);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    box-shadow: 5px -5px 5px 0px rgb(4, 4, 151);
+    margin: 4px auto;
+}
