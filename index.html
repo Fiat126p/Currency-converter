@@ -28,22 +28,27 @@
                 <legend>Kalkulator walut</legend>
                 <P>
                     <label>
-                        <span class="form__labelText">Kwota w PLN: </span><input class="form__amount js-form__amount"
+                        <span class="form__labelText">Kwota w PLN:</span><input class="form__amount js-form__amount"
                             required type="number" min="1" step="any">
                     </label>
                 </P>
                 <P>
                     <label>
-                        <span class="form__labelText">Aktualny kurs waluty EURO: </span><input
-                            class="form__currency js-form__currency" required type="number" min="1" step="any">
+                        <span class="form__labelText">Wybierz walutę </span>
+                        <select class="form__currency js-form__currency">
+                            <option value="EUR">Euro</option>
+                            <option value="CHF">Frank szwajcarski</option>
+                            <option value="GBP">Funt szterling</option>
+                        </select>
                     </label>
                 </P>
-                <p class="from__currencyTable">Tabela kursów walut dostępna na
+                <p class="from__currencyTable">Kursy walut z dnia 30.07.2021 
                     <a rel="noreferrer noopener" target="_blank"
                         href="https://www.nbp.pl/home.aspx?f=/statystyka/kursy.html" title="Kurs Walut">
-                        stronie NBP (otwiera się w nowej karcie)</a>
+                        ze strony NBP (otwiera się w nowej karcie)</a>
                 </p>
                 <div class="form__button"><button class="form__exchange">Przelicz</button></div>
+                <div class="form__button"><button class="form__clear">Wyczyść</button></div>
 
             </fieldset>
             <fieldset class="form__fieldset">
