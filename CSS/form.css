@@ -1,5 +1,5 @@
 .form__labelText {
-    width: 100%;
+     width: 100%;
     max-width: 150px;
     display: inline-block;
     margin-right: 5px;
@@ -17,6 +17,7 @@
 }
 
 .form__fieldset {
+    display: grid;
     border-radius: 5px;
     margin: 30px;
     border: 5px solid brown;
@@ -30,7 +31,8 @@
     width: 100%;
     max-width: 100px;
     box-shadow: 5px -5px 5px 0px rgb(4, 4, 151);
-    margin: 4px auto;
+    margin: 10px auto;
+    text-align: center
 }
 
 .form__button {
@@ -52,6 +54,16 @@
 
 .form__exchange:hover {
     background-color: grey;
+}
+
+.form__clear {
+    border: 2px solid rgb(136, 136, 153);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    box-shadow: 5px -5px 5px 0px rgb(62, 62, 68);
+    margin: 4px auto;
 }
 
 .from__currencyTable {
