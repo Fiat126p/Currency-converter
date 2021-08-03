@@ -28,14 +28,14 @@
                 <legend>Kalkulator walut</legend>
                 <P>
                     <label>
-                        <span class="form__labelText">Kwota w PLN:</span><input class="form__amount js-form__amount"
-                            required type="number" min="1" step="any">
+                        <span class="form__labelText">Kwota w PLN:</span><input class="js-amount form__amount"
+                            type="number" required placeholder="Wpisz Kwotę" min="1" step="any">
                     </label>
                 </P>
                 <P>
                     <label>
-                        <span class="form__labelText">Wybierz walutę </span>
-                        <select class="form__currency js-form__currency">
+                        <span class="form__labelText">Wybierz walutę</span>
+                        <select class="form__currency js-currency">
                             <option value="EUR">Euro</option>
                             <option value="CHF">Frank szwajcarski</option>
                             <option value="GBP">Funt szterling</option>
@@ -48,12 +48,12 @@
                         ze strony NBP (otwiera się w nowej karcie)</a>
                 </p>
                 <div class="form__button"><button class="form__exchange">Przelicz</button></div>
-                <div class="form__button"><button class="form__clear">Wyczyść</button></div>
+                <div class="form__button"><input class="form__clear" type="reset" value="Wyczyść kwotę w PLN"></div>
 
             </fieldset>
             <fieldset class="form__fieldset">
-                <div class="form__labelText">Kwota EURO:
-                    <p><strong class="form__cash js-form__cash">N/Y</strong></p>
+                <p class="form__result">Kwota w walucie:</p>
+                    <p class="js-result form__result"></p>
                 </div>
             </fieldset>
         </form>
